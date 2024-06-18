@@ -1,0 +1,45 @@
+.thank-you-delete-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.thank-you-delete-container h2 {
+  color: #333;
+  margin-bottom: 30px;
+  
+}
+
+.thank-you-delete-container h4 {
+  color: #555;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.thank-you-delete-container h5 {
+  color: #b00;
+  margin-bottom: 30px;
+  font-weight:800;
+}
+
+.thank-you-delete-container button {
+  padding: 10px 20px;
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.thank-you-delete-container button:hover {
+  background-color: #c9302c;
+}

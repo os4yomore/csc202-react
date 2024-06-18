@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+.create-form label{
+  color: #D0F4DE;
+  font-size: 14px;
+  display: flex;
+  margin-left:-5px;
+  margin-right:-5px;
+}
+.welcome-tag{
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.main{
+  /* background-color: #29524A; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+  
+}
+.submitData{
+  padding: 40px;
+}
+.create-form h4{
+  font-family: 'Kalam', cursive;
+  font-size: 20px;
+}
+.table1{
+  float: left;
+  padding: 10px;
+  width: 50%;
+  margin-right: 10px;
+  
+}

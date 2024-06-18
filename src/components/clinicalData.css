@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@400;700&display=swap');
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f2f5f3;
+    margin: 0;
+    padding: 0;
+}
+
+.clinical-data-form {
+    max-width: 2000px; /* Increased max-width for the form */
+    width: 1000px; /* Ensure form scales with screen size */
+    margin: 90px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #0a4b3e;
+}
+
+.clinical-data-form h4 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #0a4b3e;
+}
+
+.clinical-data-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #0a4b3e;
+}
+
+.clinical-data-form input[type="text"],
+.clinical-data-form input[type="date"],
+.clinical-data-form input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #d1e0dc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 1em;
+    color: #0a4b3e;
+}
+
+.clinical-data-form button {
+    width: 100%; /* Increased button width for a wider appearance */
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #0a4b3e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Add some margin to separate button from input fields */
+}
+
+.clinical-data-form button:hover {
+    background-color: #083b31;
+}
+.link-stuff{
+    text-decoration: underline;
+  }

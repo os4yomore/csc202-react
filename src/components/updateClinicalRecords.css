@@ -1,0 +1,46 @@
+.update-clinical-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #0a4b3e;
+}
+
+.update-clinical-form h1 {
+  text-align: center;
+  color: #0a4b3e;
+}
+
+.update-clinical-form label {
+  display: block;
+  margin-top: 10px;
+  color: #0a4b3e;
+}
+
+.update-clinical-form input {
+  width: calc(100% - 20px);
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #0a4b3e;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.update-clinical-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0a4b3e;
+  color: #ffffff;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.update-clinical-form button:hover {
+  background-color: #065c4f;
+}

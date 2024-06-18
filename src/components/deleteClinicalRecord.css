@@ -1,0 +1,39 @@
+.thank-you-delete-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #0a4b3e;
+  text-align: center;
+}
+
+.thank-you-delete-container h2 {
+  color: #0a4b3e;
+  margin-bottom: 20px;
+}
+
+.thank-you-delete-container h4,
+.thank-you-delete-container h5 {
+  color: #0a4b3e;
+  margin-bottom: 10px;
+}
+
+.thank-you-delete-container button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0a4b3e;
+  color: #ffffff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.thank-you-delete-container button:hover {
+  background-color: #065c4f;
+}
